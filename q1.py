@@ -30,6 +30,8 @@ while z>0:
       break
     if x[i]%2==0:
       continue;
+    if x[i]%2==1 and x[i+1]%2==1:
+      continue;
     if x[i]%2==0 and x[i+1]%2==0 and x[i+2]%2==0:
       continue
     else:
